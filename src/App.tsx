@@ -1,10 +1,10 @@
+import Sidebar from "./components/sidebar"
+
 function App() {
   return (
-    <>
-     <div className="bg-red-500">
-      Hello World
-     </div>
-    </>
+    <div className="text-black flex">
+      <Sidebar/>
+    </div>
   )
 }
 
