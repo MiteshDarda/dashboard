@@ -1,8 +1,5 @@
 function HighlightsBar() {
-  return (
-    <>
-    </>
-  )
+  return <></>;
 }
 
-export default HighlightsBar
+export default HighlightsBar;
