@@ -1,4 +1,4 @@
-import Heading from "./helper/heading";
+import Heading from "./helper/Heading";
 import PriorityAlerts from "./helper/priority_alerts";
 import QuickActions from "./helper/quick_actions";
 import Stats from "./helper/stats";
