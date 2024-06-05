@@ -25,7 +25,7 @@ function Stats() {
   ];
   //   const data: StatsCardData = ;
   return (
-    <div className="flex justify-around flex-wrap">
+    <div className="flex justify-between flex-wrap">
       {datas.map((data, ind) => {
         return (
           <div key={ind}>
