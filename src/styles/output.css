@@ -631,6 +631,14 @@ video {
   height: 100%;
 }
 
+.h-\[140px\] {
+  height: 140px;
+}
+
+.h-\[170px\] {
+  height: 170px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -645,6 +653,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[32px\] {
+  width: 32px;
+}
+
+.w-\[380px\] {
+  width: 380px;
 }
 
 .grow {
@@ -663,6 +679,14 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -673,6 +697,14 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .rounded-2xl {
@@ -730,6 +762,21 @@ video {
   background-color: rgb(249 168 212 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E0EAFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 234 255 / var(--tw-bg-opacity));
+}
+
+.bg-pink-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -772,6 +819,10 @@ video {
   padding: 12px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-\[12px\] {
   padding-left: 12px;
   padding-right: 12px;
@@ -780,6 +831,10 @@ video {
 .py-\[29px\] {
   padding-top: 29px;
   padding-bottom: 29px;
+}
+
+.font-\[\#111111\] {
+  font-family: #111111;
 }
 
 .text-\[24px\] {
@@ -795,9 +850,54 @@ video {
   font-size: 18px;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.font-\[14px\] {
+  font-weight: 14px;
+}
+
+.font-\[111111\] {
+  font-weight: 111111;
+}
+
+.font-\[12px\] {
+  font-weight: 12px;
+}
+
+.font-\[10px\] {
+  font-weight: 10px;
+}
+
+.font-\[18x\] {
+  font-weight: 18x;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[111111\] {
+  color: 111111;
+}
+
+.text-\[\#111111\] {
+  --tw-text-opacity: 1;
+  color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .montserrat-500 {
