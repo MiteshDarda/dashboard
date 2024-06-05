@@ -1,4 +1,5 @@
 import Dashboard from "./components/dashboard";
+import HighlightsBar from "./components/highlights_bar";
 import Sidebar from "./components/sidebar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="text-black flex">
       <Sidebar />
       <Dashboard />
+      <HighlightsBar />
     </div>
   );
 }
