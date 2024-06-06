@@ -1,6 +1,7 @@
 import StatsCard, { StatsCardProps } from "./helper/stats_card";
 
 function Stats() {
+  //* ----------------------------- Constants -----------------------------
   const cards: StatsCardProps[] = [
     {
       color: "#148714",
@@ -15,6 +16,7 @@ function Stats() {
       title: "Income",
     },
   ];
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="flex gap-1">
       {cards.map((card, ind) => {

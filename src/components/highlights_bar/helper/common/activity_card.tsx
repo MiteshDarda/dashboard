@@ -8,6 +8,7 @@ export interface ActivityProps {
 }
 
 const ActivityCard: FC<ActivityProps> = ({ count, datas, title }) => {
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="mt-4">
       <div className="flex justify-between">

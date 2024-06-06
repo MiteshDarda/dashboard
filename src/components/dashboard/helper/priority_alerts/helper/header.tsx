@@ -7,6 +7,7 @@ interface HeaderProps {
 }
 
 const Header: FC<HeaderProps> = ({ totalAlerts }) => {
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="flex justify-between">
       <h1 className=" text-[18px]">High Priority alerts ({totalAlerts})</h1>

@@ -1,6 +1,7 @@
 import StatsCard, { StatsCardData } from "./helper/stats_card";
 
 function Stats() {
+  //* ----------------------------- Constants -----------------------------
   const datas: StatsCardData[] = [
     [
       { value: 50, label: "Upcoming", color: "#FFCB49" },
@@ -23,7 +24,8 @@ function Stats() {
       { value: 23401, label: "Completed", color: "#4FD2B5" },
     ],
   ];
-  //   const data: StatsCardData = ;
+
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="flex justify-between flex-wrap">
       {datas.map((data, ind) => {

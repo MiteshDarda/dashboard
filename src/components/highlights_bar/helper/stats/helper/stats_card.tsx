@@ -8,6 +8,7 @@ export interface StatsCardProps {
 }
 
 const StatsCard: FC<StatsCardProps> = ({ title, data, message, color }) => {
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="grow h-[90px] border-[#CBCBCB] border-2 flex flex-col justify-center p-1">
       <h3 className="text-[#676666] text-[12px]">{title}</h3>

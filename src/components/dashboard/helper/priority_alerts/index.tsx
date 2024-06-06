@@ -3,6 +3,7 @@ import KitesurfingOutlinedIcon from "@mui/icons-material/KitesurfingOutlined";
 import Header from "./helper/header";
 
 const PriorityAlerts = () => {
+  //* ----------------------------- Constants -----------------------------
   const totalAlerts = 14;
   const alertDatas: AlertCardProps[] = [
     {
@@ -29,6 +30,7 @@ const PriorityAlerts = () => {
     },
   ];
 
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="m-2 w-full flex flex-col">
       <Header totalAlerts={totalAlerts} />

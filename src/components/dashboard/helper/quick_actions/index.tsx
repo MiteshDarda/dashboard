@@ -5,6 +5,7 @@ import PersonAddOutlinedIcon from "@mui/icons-material/PersonAddOutlined";
 import AddToPhotosOutlinedIcon from "@mui/icons-material/AddToPhotosOutlined";
 
 function QuickActions() {
+  //* ----------------------------- Constants -----------------------------
   const actions = [
     { label: "Create Indents", icon: <LabelImportantOutlinedIcon /> },
     { label: "Add Vehicle", icon: <LocalShippingOutlinedIcon /> },
@@ -12,6 +13,7 @@ function QuickActions() {
     { label: "Add Driver", icon: <PersonAddOutlinedIcon /> },
     { label: "Add Indents", icon: <AddToPhotosOutlinedIcon /> },
   ];
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="m-2 w-full">
       <h1 className=" text-[18px]">Quick Actions</h1>

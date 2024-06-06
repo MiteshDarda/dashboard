@@ -3,6 +3,7 @@ import HighlightsBar from "./components/highlights_bar";
 import Sidebar from "./components/sidebar";
 
 function App() {
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="text-black flex">
       <Sidebar />

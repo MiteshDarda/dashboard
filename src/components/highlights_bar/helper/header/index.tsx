@@ -1,8 +1,10 @@
 function Header() {
+  //* ----------------------------- Constants -----------------------------
   const totalHeighlights = 22;
   const nowDate = new Date();
   const date =
     nowDate.getDate() + "/" + nowDate.getMonth() + "/" + nowDate.getFullYear();
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="mb-[14px]">
       <h1 className=" text-[18px]">

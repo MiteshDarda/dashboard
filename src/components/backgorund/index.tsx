@@ -43,6 +43,7 @@ export default function Background() {
     }
   }, [messageProgress]);
 
+  //* ----------------------------- JSX -----------------------------
   return (
     <Box position="absolute" top={0} width="100%" zIndex={9999}>
       <Snackbar open={!!messageText} onClose={handleClose}>

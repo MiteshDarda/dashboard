@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { setMessage } from "../../../../../store/reducers/message_slice";
 import { MessageTypeEnum } from "../../../../../store/reducers/enums/message_type.enum";
 
+//$ ----------------------------- Props Interface -----------------------------
 export interface AlertCardProps {
   avatar: ReactElement;
   title: string;
@@ -12,7 +13,7 @@ export interface AlertCardProps {
   date: string;
   description: string;
 }
-
+//$ ----------------------------- Alert Card -----------------------------
 const AlertCard: FC<AlertCardProps> = ({
   avatar,
   title,
@@ -21,7 +22,10 @@ const AlertCard: FC<AlertCardProps> = ({
   date,
   description,
 }) => {
+  //* ----------------------------- Constants -----------------------------
   const dispatch = useDispatch();
+
+  //* ----------------------------- Functions -----------------------------
   const resolveHandler = () => {
     dispatch(
       setMessage({
@@ -38,6 +42,7 @@ const AlertCard: FC<AlertCardProps> = ({
       }),
     );
   };
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="flex flex-col justify-between items-center p-2 w-[380px] h-[170px] gap-4 bg-white rounded-lg shadow-[0_2px_8px_)_rgba(26, 56, 117, 1]">
       <div className="grow w-full flex justify-between">

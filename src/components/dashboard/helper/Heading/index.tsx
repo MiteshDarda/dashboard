@@ -3,6 +3,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import MoreVertOutlinedIcon from "@mui/icons-material/MoreVertOutlined";
 
 function Heading() {
+  //* ----------------------------- JSX -----------------------------
   return (
     <div className="w-full flex justify-between items-center">
       <div className="montserrat-500 text-[24px]">Dashboard</div>
